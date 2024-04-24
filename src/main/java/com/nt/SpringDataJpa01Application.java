@@ -13,6 +13,7 @@ public class SpringDataJpa01Application {
 	ConfigurableApplicationContext ctx = SpringApplication.run(SpringDataJpa01Application.class, args);
 	EmpDtlsRepoImpl saved = ctx.getBean(EmpDtlsRepoImpl.class);
 	saved.createRecords();
+	System.out.println("Hii..Vaibhav work hard..you are just 1 step away..");
 	}
 
 }

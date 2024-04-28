@@ -20,6 +20,9 @@ public class SpringDataJpa01Application {
 	//saved.findByEmpege(24);
 	//saved.findEmployeeByAgeSal(24, 900000.0);
 	//System.out.println("Hii..Vaibhav work hard..you are just 1 step away..");
+	int x= 10;
+	int y = 20;
+	int z = x + y;
 	}
 
 }
